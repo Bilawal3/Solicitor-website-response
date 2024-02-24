@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 100%;
+    height: 770px;
+    background: rgba(0, 0, 0, 0.4) url(img/hero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+}
+#main .navbar{
+    width: 70%;
+    padding-top: 40px;
+    margin-left: 15%;
+}
+#main .navbar .navbar-brand{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+#main .navbar-nav .nav-link{
+    color: rgb(189, 189, 189);
+}
+#main #rightside{
+    margin-top: 9%;
+    margin-left: 57.5%;
+}
+#main #rightside h1{
+    width: 500px;
+    font-size: 50px;
+    color: white;
+}
+#main #rightside p{
+    width: 580px;
+    color: rgb(189, 189, 189);
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+#main #rightside .btn1{
+    width: 160px;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(0, 114, 221);
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: white;
+}
+#main #rightside .btn1 span{
+    padding-left: 10px;
+}
+#main #rightside .btn2{
+    width: 160px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: -60px;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-left: 25%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#main #rightside .btn2 span{
+    padding-left: 10px;
+}
+#main #rightside .btn2:hover{
+    background-color: white;
+    color: black;
+}
+/* //////////////////////////////SECTION1///////////////////////////////////// */
+.main1{
+    width: 100%;
+    height: 770px;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+}
+.main1 .leftside{
+    margin-left: -10%;
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.main1 .leftside h1{
+    width: 500px;
+    font-size: 50px;
+    color: white;
+}
+.main1 .leftside p{
+    width: 450px;
+    color: rgb(150, 150, 150);
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.main1 .leftside .btn3{
+    width: 180px;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(0, 114, 221);
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: white;
+}
+.main1 .leftside .btn3 span{
+    padding-left: 10px;
+}
+.main1 .img{
+    width: 580px;
+    height: 600px;
+    background-image: url(img/about-img.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 9%;
+}
+/* //////////////////////////////section2///////////////////////////////////// */
+#main2{
+    width: 100%;
+    height: 770px;
+    background-color: rgb(44, 44, 44);
+    font-family: 'Roboto', sans-serif;
+}
+#main2 h1{
+    font-size: 50px;
+    padding-top: 5%;
+    padding-left: 6%;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+#main2 .box{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#main2 .box .box1{
+    width: 400px;
+    height: 200px;
+}
+#main2 .box .box1 h3{
+    padding-top: 30px;
+    color: white;
+    padding-left: 20px;
+    font-family: 'Playfair Display', serif;
+}
+#main2 .box .box1 p{
+    padding-top: 20px;
+    color: rgb(189, 189, 189);
+    padding-left: 20px;
+    font-size: 13px;
+}
+#main2 .box .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(0, 114, 221);
+}
+#main2 .box .icon .fa-solid{
+    padding-left: 20px;
+    font-size: 30px;
+    padding-top: 8px;
+    color: white;
+}
+#main2 .box2{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#main2 .box2 .box1{
+    width: 400px;
+    height: 200px;
+}
+#main2 .box2 .box1 h3{
+    padding-top: 30px;
+    color: white;
+    padding-left: 20px;
+    font-family: 'Playfair Display', serif;
+}
+#main2 .box2 .box1 p{
+    width: 400px;
+    padding-top: 20px;
+    color: rgb(189, 189, 189);
+    padding-left: 20px;
+    font-size: 13px;
+}
+#main2 .box2 .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(0, 114, 221);
+}
+#main2 .box2 .icon .fa-solid{
+    padding-left: 20px;
+    font-size: 30px;
+    padding-top: 8px;
+    color: white;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    #main .navbar{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #main #rightside{
+        width: 90%;
+        margin-top: 9%;
+        margin-left: 2%;
+    }
+    #main #rightside h1{
+        width: 90%;
+    }
+    #main #rightside p{
+        width: 90%;
+    }
+    #main #rightside .btn2{
+        margin-left: 50%;
+    }
+    .main1{
+        flex-wrap: wrap-reverse;
+    }
+    .main1 .leftside{
+        width: 90%;
+        margin-left: 2%;
+        padding-top: 8%;
+        padding-left: 1%;
+    }
+    .main1 .leftside h1{
+        width: 90%;
+    }
+    .main1 .leftside p{
+        width: 90%;
+    }
+    .main1 .img{
+        width: 90%;
+        height: 300px;
+        background-image: url(img/about-img.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        margin-top: 9%;
+        margin-left: -25px;
+    }
+    /* //////////////////////////////main2////////////////////////////////////// */
+    #main2{
+        height: 1700px;
+    }
+    #main2 .box{
+        padding-top: 1%;
+        flex-wrap: wrap-reverse;
+    }
+    #main2 .box2{
+        padding-top: 1%;
+        flex-wrap: wrap-reverse;
+    }
+    #main2 .box .box1{
+        margin-top: 8%;
+        margin-left: 1%;
+    }
+    #main2 .box2 .box1{
+        margin-top: 8%;
+        margin-left: 1%;
+    }
+    #main2 .box .box1 p{
+        width: 90%;
+    }
+    #main2 .box2 .box1 p{
+        width: 90%;
+    }
+    #main2 .box .box1 {
+        width: 90%;
+    }
+    #main2 .box2 .box1 {
+        width: 90%;
+    }
+    #main2 h1{
+        width: 90%;
+    }
+}
