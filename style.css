@@ -387,6 +387,44 @@
         margin-top: 5%;
         margin-left: 5%;
     }
+            /* //////////////////////////////section5///////////////////////////////////// */
+            #main5 {
+                width: 100%;
+                height: 900px;
+            }
+        
+            #main5 h1 {
+                width: 90%;
+            }
+        
+            #main5 .main-box {
+                width: 90%;
+                margin-left: 5%;
+                flex-wrap: wrap-reverse;
+            }
+        
+            #main5 .main-b {
+                width: 30%;
+                margin-top: 3%;
+            }
+        
+            #main5 .main-box1 {
+                width: 90%;
+                margin-left: 5%;
+                flex-wrap: wrap-reverse;
+            }
+        
+            #main5 .main-box2 {
+                width: 90%;
+                margin-left: 5%;
+                flex-wrap: wrap-reverse;
+            }
+        
+            #main5 .main-box3 {
+                width: 90%;
+                margin-left: 5%;
+                flex-wrap: wrap-reverse;
+            }
 }
 
 @media screen and (max-width: 1200px) {
@@ -446,6 +484,44 @@
         margin-top: 5%;
         margin-left: 5%;
     }
+        /* //////////////////////////////section5///////////////////////////////////// */
+        #main5 {
+            width: 100%;
+            height: 900px;
+        }
+    
+        #main5 h1 {
+            width: 90%;
+        }
+    
+        #main5 .main-box {
+            width: 90%;
+            margin-left: 5%;
+            flex-wrap: wrap-reverse;
+        }
+    
+        #main5 .main-b {
+            width: 30%;
+            margin-top: 3%;
+        }
+    
+        #main5 .main-box1 {
+            width: 90%;
+            margin-left: 5%;
+            flex-wrap: wrap-reverse;
+        }
+    
+        #main5 .main-box2 {
+            width: 90%;
+            margin-left: 5%;
+            flex-wrap: wrap-reverse;
+        }
+    
+        #main5 .main-box3 {
+            width: 90%;
+            margin-left: 5%;
+            flex-wrap: wrap-reverse;
+        }
 }
 
 @media screen and (max-width: 992px) {
